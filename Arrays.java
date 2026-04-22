@@ -107,13 +107,56 @@ static void main(){
 // System.out.print(matrix[2][2]);
 // System.out.print(matrix[2][3]);
 
+// int arr[][]= {{1,2,3,4},
+//                  {5,6,7,8},
+//                  {9,10,11,12}};
 
+// int rowLength= arr.length;
+// // System.out.println(rowLength);
+// for(int i=0;i<rowLength;i++){
+//     for(int j=0;j<arr[i].length;j++){
+//          System.out.print(arr[i][j] + " ");
+//     }
+//         System.out.println();
+// }
 
+//taking input from a user in a 2-d array
+// int arr[][]=new int[3][3];
+// Scanner sc= new Scanner(System.in);
 
+// //taking the input
+// for(int rowIndex=0; rowIndex<arr.length; rowIndex++){
+//     for(int colIndex=0; colIndex<arr[rowIndex].length; colIndex++ ){
+//         System.out.println("Enter the value of element of row " + rowIndex + ", column " + colIndex + ": ");
+//         arr[rowIndex][colIndex]=sc.nextInt();
+//     }
+// }
 
+// //print the input 2-d array
 
+// for(int i=0;i<arr.length;i++){
 
+//     //arr[i].length means length of current row is the no of columns in that row.
+//     for(int j=0;j<arr[i].length;j++){
+//          System.out.print(arr[i][j] + " ");
+//     }
+//         System.out.println();
+// }
 
+//rivison of i/o in 1d array
+// int arr[]= new int[5];
 
+// Scanner sc=new Scanner(System.in);
+
+// for(int i=0;i<arr.length;i++){
+//     System.out.println("Enter the value of element at index:"+i );
+//     arr[i]=sc.nextInt();
+// }
+
+// for(int value:arr){
+//     System.out.print(value+" ");
+// }
+
+// sc.close();
 }
 
