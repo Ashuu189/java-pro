@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 static void main(){
 
     //creating an array in java
