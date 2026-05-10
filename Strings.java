@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Strings {
     //This uses string literal and it is stored in string pool
