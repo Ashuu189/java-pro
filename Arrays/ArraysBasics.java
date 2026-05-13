@@ -1,5 +1,6 @@
+
 // import java.util.Scanner;
-static void main(){
+// static void main(){
 
     //creating an array in java
     // int arr[];
@@ -158,5 +159,5 @@ static void main(){
 // }
 
 // sc.close();
-}
+
 

@@ -1,3 +1,4 @@
+package JavaBasics;
 public class Methods {
 static void print2table(){
     for(int i=1;i<=10;i++){

@@ -1,3 +1,4 @@
+
 public class App {
     public static void main(String[] args) {
         Student A= new Student(1,"Ashutosh",22,5,"Priya");

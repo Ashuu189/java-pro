@@ -1,3 +1,4 @@
+package JavaBasics;
 public class Patterns {
      static void main() {
         //outer loop controls the ro ws
