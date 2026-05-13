@@ -10,6 +10,7 @@ public class basicMaths {
         System.out.println(mod);
         n= n/10;
         }
+        sc.close();
              
     }
 }
