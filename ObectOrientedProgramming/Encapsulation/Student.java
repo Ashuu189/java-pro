@@ -1,3 +1,4 @@
+package Encapsulation;
 public class Student {
     //Attibutes
     public int id;
