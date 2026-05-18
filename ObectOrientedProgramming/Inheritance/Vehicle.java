@@ -4,13 +4,13 @@ public String name;
 public String model;
 
 
-Vehicle(){
+public Vehicle(){
     this.name="";
     this.model="";
 
 }
 
-Vehicle(String name, String model){
+public Vehicle(String name, String model){
     this.name=name;
     this.model=model;
 }
