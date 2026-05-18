@@ -1,4 +1,4 @@
-package Inheritance;
+package ObjectOrientedProgramming.Inheritance;
 public class Vehicle {
 public String name;
 public String model;
