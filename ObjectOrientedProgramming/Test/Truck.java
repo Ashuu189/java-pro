@@ -1,6 +1,6 @@
-package ObjectOrientedProgramming.Test;
+package Test;
 
-import ObjectOrientedProgramming.Inheritance.Vehicle;
+import Inheritance.Vehicle;
 
 public class Truck extends Vehicle {
     Truck(){
