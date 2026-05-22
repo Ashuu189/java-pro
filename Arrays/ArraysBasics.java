@@ -23,7 +23,7 @@
 // System.out.println(result);
 //     }
 
-//another way to transverse the array is using for each loop
+//another way to traverse the array is using for each loop
 // for(int value: brr){
 //     System.out.println(value);
 // }
