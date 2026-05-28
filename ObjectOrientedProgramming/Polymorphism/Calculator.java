@@ -1,7 +1,7 @@
 package Polymorphism;
 
 public class Calculator {
-    //method overloading is a part of static overloading and its a compile time polymorphism
+    //method overloading is a part of static polymorphism and its a compile time polymorphism
     //methods Overloading occurs when a class contains multiple methods 
     // sharing a name but differing in argument count or argument type.
 
