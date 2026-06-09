@@ -83,8 +83,10 @@ public class arrayList {
         // }
 
         //contains function
-        System.out.println(list3.contains(6));
-        System.out.println(list3.contains(1000));
+        // System.out.println(list3.contains(6));
+        // System.out.println(list3.contains(1000));
+
+        
 
   
 
