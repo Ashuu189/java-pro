@@ -29,12 +29,17 @@ public class something {
         //   // System.out.println(iterator.next());
         // }
 
-        List <Integer> list3= new ArrayList<>();
-        list3.add(25);
-        list3.add(26);
-        list3.add(27);
+        ArrayList <Integer> list= new ArrayList<>();
+        list.add(25);
+        list.add(26);
+        list.add(27);
 
-        System.out.println(list3.get(0));
+        // System.out.println(list.get(0));
+
+        ArrayList <Integer> newList= (ArrayList<Integer>) list.clone();
+        System.out.println(newList);
+ 
+        
 
         
 

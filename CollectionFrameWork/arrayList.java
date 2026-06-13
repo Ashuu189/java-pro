@@ -1,10 +1,6 @@
 package CollectionFrameWork;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import java.util.Iterator;
-import java.util.Collections;
+import java.util.*;
 
 public class arrayList {
     public static void main(String[] args) {
@@ -87,27 +83,25 @@ public class arrayList {
         // System.out.println(list3.contains(6));
         // System.out.println(list3.contains(1000));
 
-
-
-  
-
-
 // list3.add(1);
 // System.out.println(list3);
   
-
 //sort function= it will sort the list in ascending order
 // Collections.sort(list3);
 // System.out.println(list3);
 
+//Sorting in reverse or descending order
+// Collections.sort(list3, Collections.reverseOrder());
+// System.out.println(list3);
+
 //clone function -> used to clone the list by doing type casting
-ArrayList<Integer> newList= (ArrayList<Integer>) list3.clone();
+// ArrayList<Integer> newList= (ArrayList<Integer>) list3.clone();
     // System.out.println(newList);
 
-ArrayList<Integer> marks= new ArrayList<>();
+// ArrayList<Integer> marks= new ArrayList<>();
 
 //ensureCapacity function -> it is used to increase the capacity of the list
-marks.ensureCapacity(100);
+// marks.ensureCapacity(100);
 
 //isEmpty function -> it is used to check whether the list is empty or not
 // System.out.println(list3.isEmpty());
