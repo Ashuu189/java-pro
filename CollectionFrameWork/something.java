@@ -36,9 +36,13 @@ public class something {
 
         // System.out.println(list.get(0));
 
-        ArrayList <Integer> newList= (ArrayList<Integer>) list.clone();
-        System.out.println(newList);
+        // ArrayList <Integer> newList= (ArrayList<Integer>) list.clone();
+        // System.out.println(newList);
  
+        Object[] arr = list.toArray();
+        for(Object value:arr){
+          System.out.println(value);
+        }
         
 
         

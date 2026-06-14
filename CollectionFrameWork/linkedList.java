@@ -110,6 +110,8 @@ public static void main(String[] args) {
     // ll.offer(12);
     // System.out.println(ll);
 
+    //all the functions of arraylist can be implemented in the vector class but 
 
+    
 }
 }   
