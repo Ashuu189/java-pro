@@ -1,4 +1,4 @@
-package CollectionFrameWork;
+package ListInterface;
 import java.util.*;
 public class linkedList {
 public static void main(String[] args) {
