@@ -8,7 +8,7 @@ public class hashSet {
     // it does not maintain the order of the elements.
      //indexing is not poosible in set because 
      // it does not maintain the order of the elements.
-    // Set<Integer> set= new HashSet<>();
+    Set<Integer> set= new HashSet<>();
     // set.add(2);
     // set.add(2);
     

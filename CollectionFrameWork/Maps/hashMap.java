@@ -57,7 +57,7 @@ public class hashMap {
         // System.out.println(map2.containsValue("india"));
         // System.out.println(map2.containsValue("india2"));
 
-        System.out.println(map2);
+        // System.out.println(map2);
 
         //replace() is used to replace the value of the specified key.
         // if the key is not present in the map then it will not update the value.
@@ -70,13 +70,24 @@ public class hashMap {
         //  System.out.println(keyset);
 
          //map2.values() is used to get the collection of values from the map.
-        //  Collection<String> values= map2.values();
+        // Collection<String> values=  map2.values();
         //     System.out.println(values);
 
         //map2.entrySet() is used to get the set of key value pairs from the map.
-     Set<Map.Entry<String, String>> entries= map2.entrySet();
-     System.out.println(entries);
+        // Set<Map.Entry<String, String>> entries=  map2.entrySet();
 
+        //  System.out.println(entries);
+        
+      Map<String, String> temp = map2;
+
+      for(Map.Entry<String, String> value: map2.entrySet()){
+        System.out.println(value.getKey());
+        System.out.println(value.getValue());
+      }
+
+
+
+     
 
     }
 }
