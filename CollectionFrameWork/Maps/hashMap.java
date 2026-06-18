@@ -78,7 +78,7 @@ public class hashMap {
 
         //  System.out.println(entries);
         
-      Map<String, String> temp = map2;
+      // Map<String, String> temp = map2;
 
       for(Map.Entry<String, String> value: map2.entrySet()){
         System.out.println(value.getKey());

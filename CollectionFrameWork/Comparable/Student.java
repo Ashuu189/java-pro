@@ -1,5 +1,5 @@
 package Comparable;
-import java.util.*;
+
 public class Student implements Comparable<Student> {
     
  public int age;

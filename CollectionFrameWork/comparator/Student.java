@@ -1,5 +1,5 @@
 package comparator;
-import java.util.*;
+
 public class Student {
     public int age;
     public String name;
