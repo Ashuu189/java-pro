@@ -1,5 +1,5 @@
 package BitbwiseOperator;
-import java.util.*;
+// import java.util.*;
 public class bitwise {
     public static void main(String[] args) {
 //    int n=10;
