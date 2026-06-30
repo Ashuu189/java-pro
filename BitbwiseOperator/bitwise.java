@@ -75,9 +75,25 @@ public class bitwise {
 
     //find the unique number in the series
     //where all other numbers are present twice
-    int a= 10^24^13^10^24^17^17;
+    // int a= 10^24^13^10^24^17^17;
 
-    System.out.println(a);
+    // System.out.println(a);
+    // }
+
+    int n=10;
+   int answer=0;
+    int i=0;
+    while(n!=0){
+        int bit= n&1;
+        answer= (int)(Math.pow(10,i))*bit+answer;
+        n=n>>1;
+        i++;
+    }
+
+    System.out.println(answer);
+
+
+
     }
 
     
