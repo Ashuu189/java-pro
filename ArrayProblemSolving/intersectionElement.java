@@ -10,6 +10,7 @@ public class intersectionElement {
              if(arr1[i]==arr2[j]){
                newArray[k]=arr1[i];
                k++;
+               break;
              }
             }
         }
@@ -18,14 +19,17 @@ public class intersectionElement {
 
     }
 
-    static void main(){
+    public static void main(String[] args) {
         int [] arr1={1,2,3,4,5};
         int [] arr2={6,7,2,3,8,9};
 
         int [] ans= intersect(arr1, arr2);
 
         for(int value: ans){
+            if(value!=0){
             System.out.println(value);
+            }
+            
         }
 
 
