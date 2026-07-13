@@ -3,41 +3,36 @@ package ArrayProblemSolving;
 import java.util.HashMap;
 
 public class gettingMaxFrequency {
-    static int getFreq(int arr[]){
 
-        HashMap<Integer,Integer> CountFreq= new HashMap<>();
-      
-        for(int value: arr){
-                CountFreq.put(value, CountFreq.getOrDefault(value, 0)+1);
+    public static int getMaxFrequency(int []arr){
+       
+        HashMap<Integer,Integer> map = new HashMap<>();
+        
+        for(int num:arr){
+            map.put(num, map.getOrDefault(num,0) + 1);
         }
 
-        // for(int key :CountFreq.keySet()){
-        //     System.out.println(key + ": " + CountFreq.get(key));
+        // for(int key: map.keySet()){
+        //     System.out.println(key + "->" + map.get(key));
         // }
 
-        int maxFreq=-1;
-        int maxFreqKey=-1;
-
-        for(int key: CountFreq.keySet()){
-            int currentKey=key;
-            int currentKeyFreq=CountFreq.get(key);
-
-            if(currentKeyFreq>maxFreq){
-                maxFreq=currentKeyFreq;
-                maxFreqKey=currentKey;
+        int currentMax=-1;
+        int currentMaxKey=-1;
+        for(int key: map.keySet()){
+            if(map.get(key) > currentMax){
+                currentMax = map.get(key);
+                currentMaxKey = key;
             }
-
         }
 
-        return maxFreqKey;
+        return currentMaxKey;
 
+    }
 
-        }
-
-        public static void main(String[] args) {
-            int arr[]={1,2,2,3,4,5,5,5,5,5,5,6,7,8,9,1,2,3,4,5,6,7,8,9};
-            int ans=getFreq(arr);
-            System.out.println(ans);
-             
-        }
+    public static void main(String[] args) {
+        
+        int []arr = {1,2,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9};
+       int maxFreqElement = getMaxFrequency(arr);
+       System.out.println("Element with maximum frequency: " + maxFreqElement);
+    }
 }
