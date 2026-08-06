@@ -1,3 +1,4 @@
+package Arrays;
 public class rivison{
 
     public static void reverseArray(int arr[]){
